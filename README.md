@@ -4,7 +4,7 @@ example of process where Google Cloud Function is triggered by PubSub message.
 Cloud Functions writes data into BigQuery and than waits for a few minutes (depending on the value in the message).  
 Idea is to explore possibility to use CFs as async background workers for longer duration tasks, that's why artificial 
 waiting is done in function.
-
+ 
 ## setup up
 0. `settings.py` - set varibales
 
