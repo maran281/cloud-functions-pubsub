@@ -8,7 +8,6 @@ from google.cloud import bigquery
 
 bq = bigquery.Client()
 
-
 def main(data, context):
     logging.info(data)
     logging.info(context)
