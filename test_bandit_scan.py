@@ -1,7 +1,7 @@
 import os
 import subprocess
 import hashlib
-
+ 
 # Hardcoded password (Bandit issue: B105)
 def connect_to_database():
     password = "SuperSecret123"  # Hardcoded secret
